@@ -27,6 +27,10 @@ public class KidsMeal {
 
 
         public Builder() {
+            mainDish = null;
+            desert = null;
+            softDrinks = null;
+            gift = null;
         }
 
 
@@ -58,7 +62,36 @@ public class KidsMeal {
         }
     }
 
+    public String getMainDish() {
+        if(mainDish != null)
+            return mainDish.toString();
+        return "";
+    }
 
+    public String getDesert() {
+        if(desert != null)
+            return desert.toString();
+        return "";
+    }
+
+    public String getSoftDrinks() {
+        if(softDrinks != null)
+            return softDrinks.toString();
+        return "";
+    }
+
+    public String getGift() {
+        if(gift != null)
+            return gift.toString();
+        return "";
+    }
+
+    public String getMenu() {
+        return "Main Dish: " + getMainDish()
+                + "\nDesert: " + getDesert()
+                + "\nSoft Drinks: " + getSoftDrinks()
+                + "\nGift: " + getGift();
+    }
 
 
 

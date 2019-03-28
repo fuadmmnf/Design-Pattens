@@ -5,4 +5,9 @@ public class KeyRing extends Gift {
     void makeGift() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Key Ring";
+    }
 }

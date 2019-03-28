@@ -5,4 +5,9 @@ public class Car extends Gift {
     void makeGift() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Car";
+    }
 }

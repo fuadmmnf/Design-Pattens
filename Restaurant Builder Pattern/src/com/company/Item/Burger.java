@@ -5,4 +5,9 @@ public class Burger extends MainDish {
     void makeDish() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Burger";
+    }
 }

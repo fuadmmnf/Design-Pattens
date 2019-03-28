@@ -6,4 +6,9 @@ public class Pizza extends MainDish
     void makeDish() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Pizza";
+    }
 }

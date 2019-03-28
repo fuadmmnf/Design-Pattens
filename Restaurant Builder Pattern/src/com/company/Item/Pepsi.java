@@ -5,4 +5,9 @@ public class Pepsi extends SoftDrinks {
     void makeDrink() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Pepsi";
+    }
 }

@@ -5,4 +5,9 @@ public class CheeseCake extends Desert{
     void makeDesert() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Cheese Cake";
+    }
 }

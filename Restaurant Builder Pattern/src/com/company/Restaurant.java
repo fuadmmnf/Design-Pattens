@@ -8,22 +8,21 @@ public class Restaurant {
     private AdultsMeal adultsMeal;
 
 
-    public Restaurant()
-    {
-         this.kidsMeal = new KidsMeal.Builder()
-                 .withMainDish(new Burger())
-                 .withDesert(new Donut())
-                 .withSoftDrink(new Pepsi())
-                 .withGift(new Car())
-                 .build();
+    public Restaurant() {
+        this.kidsMeal = new KidsMeal.Builder()
+                .withMainDish(new Burger())
+                .withDesert(new Donut())
+                .withSoftDrink(new Pepsi())
+                .withGift(new Car())
+                .build();
 
 
-         this.adultsMeal = new AdultsMeal.Builder()
-                 .withMainDish(new Pizza())
-                 .withDesert(new CheeseCake())
-                 .withSoftDrink(new Fanta())
-                 .withGift(new KeyRing())
-                 .build();
+        this.adultsMeal = new AdultsMeal.Builder()
+                .withMainDish(new Pizza())
+                .withDesert(new CheeseCake())
+                .withSoftDrink(new Fanta())
+                .withGift(new KeyRing())
+                .build();
 
     }
 
@@ -41,5 +40,11 @@ public class Restaurant {
 
     public void setAdultsMeal(AdultsMeal adultsMeal) {
         this.adultsMeal = adultsMeal;
+    }
+
+
+    public String getMenu() {
+        return "Kid's menu:\n--------------------\n" + kidsMeal.getMenu() + "\n\n"
+                + "Adult Menu\n--------------------\n"+adultsMeal.getMenu();
     }
 }

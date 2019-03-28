@@ -5,4 +5,9 @@ public class Fanta extends SoftDrinks{
     void makeDrink() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Fanta";
+    }
 }
