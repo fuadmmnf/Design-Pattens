@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a3b6f3-f026-4203-a460-c76251ceffb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composite Assignment/Composite Assignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/CompressedFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/DecoratedFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/EncriptedFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/IFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/PasswordProtected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

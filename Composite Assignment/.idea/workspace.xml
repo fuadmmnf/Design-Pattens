@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composite Assignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/CompressedFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/DecoratedFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/EncriptedFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/IFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/PasswordProtected.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Composite Pattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,7 +102,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -252,8 +242,7 @@
     <option name="totallyTimeSpent" value="2559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="1" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
