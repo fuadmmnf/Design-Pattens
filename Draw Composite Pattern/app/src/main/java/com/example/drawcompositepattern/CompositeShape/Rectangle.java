@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Rectangle implements IShape {
-    private List<Line> lines;
+    private List<IShape> lines;
 
 
 
@@ -47,7 +47,7 @@ public class Rectangle implements IShape {
     @Override
     public String description() {
         String des = "";
-        for(Line line: lines)
+        for(IShape line: lines)
             des += line.description();
 
         return des;
