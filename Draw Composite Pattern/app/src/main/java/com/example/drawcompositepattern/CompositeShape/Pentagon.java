@@ -22,6 +22,7 @@ public class Pentagon implements IShape {
     @Override
     public void setPoints(List<Point> points) {
         ArrayList<Point> temp = new ArrayList<>();
+        points.clear();
         temp.add(new Point(0,0));
         temp.add(new Point(0,0));
         Line line = new Line();
