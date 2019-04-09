@@ -2,9 +2,11 @@ package com.example.drawcompositepattern;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -100,7 +102,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 resetButtonColor();
-                triangleButton.setBackgroundColor(Color.GRAY);
+                triangleButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark)));
+
                 pointNum = 3;
                 shape = new Triangle();
                 shapes.add(shape);
@@ -112,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 resetButtonColor();
-                rectButton.setBackgroundColor(Color.GRAY);
+                rectButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark)));
 
                 pointNum = 4;
                 shape = new Rectangle();
@@ -125,7 +128,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 resetButtonColor();
-                pentagonButton.setBackgroundColor(Color.GRAY);
+                pentagonButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark)));
+
 
                 pointNum = 5;
                 shape = new Pentagon();
@@ -138,7 +142,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 resetButtonColor();
-                lineButton.setBackgroundColor(Color.GRAY);
+                lineButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark)));
+
                 pointNum = 2;
                 shape = new Line();
                 shapes.add(shape);
@@ -158,10 +163,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void resetButtonColor()
     {
-        triangleButton.setBackgroundColor(Color.WHITE);
-        rectButton.setBackgroundColor(Color.WHITE);
-        pentagonButton.setBackgroundColor(Color.WHITE);
-        lineButton.setBackgroundColor(Color.WHITE);
+        triangleButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.white)));
+
+        rectButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.white)));
+        pentagonButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.white)));
+        lineButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.white)));
     }
     public class DrawView extends View {
 
