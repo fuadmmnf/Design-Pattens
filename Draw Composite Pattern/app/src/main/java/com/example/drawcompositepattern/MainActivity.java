@@ -2,9 +2,11 @@ package com.example.drawcompositepattern;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -39,8 +41,10 @@ public class MainActivity extends AppCompatActivity {
     private List<IShape> shapes;
     IShape shape;
     Path path;
-
-
+    SubActionButton triangleButton;
+    SubActionButton rectButton;
+    SubActionButton lineButton;
+    SubActionButton pentagonButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,19 +70,19 @@ public class MainActivity extends AppCompatActivity {
         // repeat many times:
         ImageView itemIcon = new ImageView(this);
         itemIcon.setImageResource(R.drawable.ic_details_black_24dp);
-        SubActionButton triangleButton = itemBuilder.setContentView(itemIcon).build();
+        triangleButton = itemBuilder.setContentView(itemIcon).build();
 
         itemIcon = new ImageView(this);
         itemIcon.setImageResource(R.drawable.ic_check_box_outline_blank_black_24dp);
-        SubActionButton rectButton = itemBuilder.setContentView(itemIcon).build();
+        rectButton = itemBuilder.setContentView(itemIcon).build();
 
         itemIcon = new ImageView(this);
         itemIcon.setImageResource(R.drawable.ic_timeline_black_24dp);
-        SubActionButton lineButton = itemBuilder.setContentView(itemIcon).build();
+        lineButton = itemBuilder.setContentView(itemIcon).build();
 
         itemIcon = new ImageView(this);
         itemIcon.setImageResource(R.drawable.ic_label_outline_black_24dp);
-        SubActionButton pentagonButton = itemBuilder.setContentView(itemIcon).build();
+        pentagonButton = itemBuilder.setContentView(itemIcon).build();
 
         itemIcon = new ImageView(this);
         itemIcon.setImageResource(R.drawable.ic_close_black_24dp);
@@ -96,6 +100,10 @@ public class MainActivity extends AppCompatActivity {
         triangleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                resetButtonColor();
+                triangleButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark)));
+
                 pointNum = 3;
                 shape = new Triangle();
                 shapes.add(shape);
@@ -106,6 +114,9 @@ public class MainActivity extends AppCompatActivity {
         rectButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                resetButtonColor();
+                rectButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark)));
+
                 pointNum = 4;
                 shape = new Rectangle();
                 shapes.add(shape);
@@ -115,6 +126,11 @@ public class MainActivity extends AppCompatActivity {
         pentagonButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                resetButtonColor();
+                pentagonButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark)));
+
+
                 pointNum = 5;
                 shape = new Pentagon();
                 shapes.add(shape);
@@ -125,6 +141,9 @@ public class MainActivity extends AppCompatActivity {
         lineButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                resetButtonColor();
+                lineButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDark)));
+
                 pointNum = 2;
                 shape = new Line();
                 shapes.add(shape);
@@ -142,7 +161,14 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void resetButtonColor()
+    {
+        triangleButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.white)));
 
+        rectButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.white)));
+        pentagonButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.white)));
+        lineButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.this, R.color.white)));
+    }
     public class DrawView extends View {
 
         private Paint paint;
