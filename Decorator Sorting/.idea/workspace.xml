@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="519372cc-94ae-4873-9dc3-d3ff5a4d7758" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/src/com/company/DVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/src/com/company/ElectronicDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/src/com/company/QV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/src/com/company/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/src/com/company/Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge Classwork/src/com/company/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/Composite Assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/Composite Assignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Assignment/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Assignment/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/Composite Pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/Composite Pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/src/com/company/BasicShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/src/com/company/BasicShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/src/com/company/CompositeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/src/com/company/CompositeShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/src/com/company/IShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/src/com/company/IShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite Pattern/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite Pattern/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Assignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/Decorator Assignment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/src/com/company/Sorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Assignment/src/com/company/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/Decorator Classwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/Decorator Classwork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/CompressedFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/CompressedFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/DecoratedFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/DecoratedFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/EncriptedFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/EncriptedFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/IFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/IFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/PasswordProtected.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Classwork/src/com/company/PasswordProtected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/androidTest/java/com/example/drawcompositepattern/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/androidTest/java/com/example/drawcompositepattern/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/BasicShape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/BasicShape/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/BasicShape/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/BasicShape/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/CompositeShape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/CompositeShape/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/CompositeShape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/CompositeShape/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/IShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/IShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/Shapes/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/Shapes/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/java/com/example/drawcompositepattern/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable-v21/round_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable-v21/round_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_check_box_outline_blank_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_check_box_outline_blank_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_details_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_details_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_menu_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_menu_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_timeline_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/ic_timeline_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/round_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/drawable/round_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/values/buttons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/values/buttons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/test/java/com/example/drawcompositepattern/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/app/src/test/java/com/example/drawcompositepattern/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw Composite Pattern/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Draw Composite Pattern/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/Observer Pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/Observer Pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/src/com/company/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/src/com/company/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer Pattern/src/com/company/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Pattern/src/com/company/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/Restaurant Builder Pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/Restaurant Builder Pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/AdultsMeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/AdultsMeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/CheeseCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/CheeseCake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Desert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Desert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Donut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Donut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Fanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Fanta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Gift.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Gift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/KeyRing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/KeyRing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/MainDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/MainDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Pepsi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Pepsi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/SoftDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Item/SoftDrinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/KidsMeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/KidsMeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant Builder Pattern/src/com/company/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/Strategy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/Strategy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/src/com/company/Payment/BkashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/src/com/company/Payment/BkashPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/src/com/company/Payment/CashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/src/com/company/Payment/CashPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/src/com/company/Payment/IPayable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/src/com/company/Payment/IPayable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/src/com/company/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/src/com/company/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy/src/com/company/Shopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy/src/com/company/Shopper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/Code1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/Code1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/src/com/company/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/src/com/company/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/src/com/company/Animals/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/src/com/company/Animals/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/src/com/company/Animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/src/com/company/Animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/src/com/company/Behaviour/CanFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/src/com/company/Behaviour/CanFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/src/com/company/Behaviour/CannotFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/src/com/company/Behaviour/CannotFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/src/com/company/Behaviour/IFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/src/com/company/Behaviour/IFlyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy2/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/Strategy_Homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/Strategy_Homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Payment/Call_Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Payment/Call_Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Payment/Email_Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Payment/Email_Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Payment/INotifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Payment/INotifiable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Payment/SMS_Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/Payment/SMS_Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strategy_Homework/src/com/company/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/TemplateAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/TemplateAssignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Banglalink.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Banglalink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/GrameenPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/GrameenPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Robi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Robi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Teletalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateAssignment/src/com/company/Teletalk.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Sorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Sorting.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="11" />
+    <option name="y" value="-21" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Decorator Sorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Decorator Sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Decorator Sorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Decorator Sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Decorator Sorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Decorator Sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Decorator Sorting" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="519372cc-94ae-4873-9dc3-d3ff5a4d7758" name="Default Changelist" comment="" />
+      <created>1555395664103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555395664103</updated>
+      <workItem from="1555395668432" duration="1793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1793000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Sorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
