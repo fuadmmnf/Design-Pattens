@@ -8,17 +8,16 @@ import java.util.List;
 public class Sorting {
 
     private List<Student> students;
-
-    public Sorting() {
-        students = new ArrayList<>();
+    private int pref;
+    public Sorting(List<Student> students, int pref) {
+        this.students = students;
+        this.pref = pref;
     }
 
 
-    public void addStudent(Student student) {
-        students.add(student);
-    }
 
-    public List<Student> sort(int pref) {
+
+    public List<Student> sort() {
         Collections.sort(students, new Comparator<Student>() {
             public int compare(Student s1, Student s2) {
 

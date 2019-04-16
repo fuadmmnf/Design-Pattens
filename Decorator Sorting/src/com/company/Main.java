@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Sorting db = new Sorting();
+
         List<Student> sortedStudents = new ArrayList<>();
         List<Integer> sortSerial = new ArrayList<>();
 
@@ -25,10 +25,10 @@ public class Main {
 //            db.addStudent(new Student(name, age, cg, session));
 //        }
 
-        db.addStudent(new Student("fuad", 23, 2.3, "2016-2017"));
-        db.addStudent(new Student("nafis", 23, 2.6, "2016-2017"));
-        db.addStudent(new Student("mridha", 20, 2.3, "2016-2017"));
-        db.addStudent(new Student("sidat", 19, 3.5, "2016-2017"));
+        sortedStudents.add(new Student("fuad", 23, 2.3, "2016-2017"));
+        sortedStudents.add(new Student("nafis", 23, 2.6, "2016-2017"));
+        sortedStudents.add(new Student("mridha", 20, 2.3, "2016-2017"));
+        sortedStudents.add(new Student("sidat", 19, 3.5, "2016-2017"));
 
         int sortCount = 4;
 //        for(int i=0; i<sortCount; i++)
@@ -43,9 +43,10 @@ public class Main {
 
         for(int i: sortSerial)
         {
-            db.sort(sortSerial.get(sortSerial.size()-1-i));
+            sortedStudents = new Sorting(sortedStudents, i).sort();
         }
 
-        db.printStudents();
+        for(Student st : sortedStudents)
+            System.out.println(st.toString());
     }
 }
