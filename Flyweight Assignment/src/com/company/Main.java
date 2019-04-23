@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] arguments) {
 
-
+        Color [] colors = {Color.red, Color.black, Color.cyan, Color.DARK_GRAY, Color.YELLOW, Color.white};
 
         // create a basic JFrame
         JFrame.setDefaultLookAndFeelDecorated(true);
@@ -21,7 +21,7 @@ public class Main {
         Instant start = Instant.now();
 
         for(int i=0; i<1000; i++) {
-            Rectangle panel = new Rectangle((int)Math.random()%4*100, (int)Math.random()%4*100);
+            Rectangle panel = new Rectangle((int)Math.random()%500, (int)Math.random()%500);
             frame1.add(panel);
         }
 
@@ -44,7 +44,7 @@ public class Main {
         start = Instant.now();
 
         for(int i=0; i<1000; i++) {
-            Rectangle panel = flyWeightFactory.getRectangle((int)Math.random()%4*100, (int)Math.random()%4*100);
+            Rectangle panel = flyWeightFactory.getRectangle((int)Math.random()%4*100, (int)Math.random()%4*100, colors[(int)Math.random()%colors.length]);
             frame2.add(panel);
         }
 

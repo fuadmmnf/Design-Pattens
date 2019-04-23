@@ -1,5 +1,7 @@
 package com.company;
 
+import java.awt.*;
+
 public class FlyWeightFactory  {
 
     private Rectangle[][] rectangles;
@@ -9,17 +11,21 @@ public class FlyWeightFactory  {
 
     }
 
-    public Rectangle getRectangle(int width, int height)
+    public Rectangle getRectangle(int width, int height, Color color)
     {
         Rectangle rect = null;
 
         if(rectangles[width][height] != null)
         {
-            return rectangles[width][height];
+            Rectangle rectangle = rectangles[width][height];
+            rectangle.setColor(color);
+            return rectangle;
         }
         else
         {
-            return rectangles[width][height] = new Rectangle(width, height);
+            Rectangle rectangle = rectangles[width][height] = new Rectangle(width, height);
+            rectangle.setColor(color);
+            return rectangle;
         }
     }
 }
