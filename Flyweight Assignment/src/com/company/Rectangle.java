@@ -4,16 +4,17 @@ import javax.swing.*;
 import java.awt.*;
 
 
-class Rectangle extends JPanel {
+class Rectangle{
 
     private int height;
     private int width;
     private Color color;
 
-    public Rectangle(int width, int heights)
+    public Rectangle(int width, int height)
     {
         this.height = height;
         this.width = width;
+
     }
 
     public Color getColor() {
@@ -24,9 +25,9 @@ class Rectangle extends JPanel {
         this.color = color;
     }
 
-    public void paint(Graphics g) {
-        g.setColor(color);
-        g.fillRect(10,10,width,height);
+    public void draw(Graphics2D g2d) {
+        g2d.setColor(color);
+        g2d.fillRect(150, 200, width, height);
     }
 
 

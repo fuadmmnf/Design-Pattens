@@ -2,7 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5579c4-6606-45c2-8c2f-d9087935d75d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Decorator Sorting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator Sorting/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FlyweightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/androidTest/java/com/example/commandassignment/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/BasicShape/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/BasicShape/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/CompositeShape/Pentagon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/CompositeShape/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/CompositeShape/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/IShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/Shapes/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/java/com/example/commandpattern/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable-v21/round_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_check_box_outline_blank_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_close_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_crop_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_details_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_label_outline_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_menu_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_redo_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_timeline_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/ic_undo_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/drawable/round_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/values/buttons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/app/src/test/java/com/example/commandassignment/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Command Assignment/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Flyweight Assignment/com/company/FlyWeightFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flyweight Assignment/com/company/FlyWeightFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Flyweight Assignment/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flyweight Assignment/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Flyweight Assignment/com/company/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flyweight Assignment/com/company/Rectangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/FlyWeightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FlyWeightFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Rectangle.java" afterDir="false" />
@@ -19,11 +82,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
-              <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/FlyweightTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="80" column="83" selection-start-line="80" selection-start-column="83" selection-end-line="80" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +106,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/FlyWeightFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="129">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,14 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="268">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -71,9 +141,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/MyPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/com/company/FlyWeightFactory.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FlyweightTest.java" />
       </list>
     </option>
   </component>
@@ -86,11 +157,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
-    <option name="y" value="-21" />
-    <option name="width" value="1346" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="271" />
+    <option name="width" value="1102" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -100,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,16 +194,18 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556557646126" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,17 +248,19 @@
       <updated>1555406969920</updated>
       <workItem from="1555406971444" duration="2717000" />
       <workItem from="1556020461415" duration="726000" />
+      <workItem from="1556552664534" duration="3250000" />
+      <workItem from="1556555981103" duration="1644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3443000" />
+    <option name="totallyTimeSpent" value="8337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="271" y="0" width="1102" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5191939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -194,8 +269,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28431374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -204,7 +279,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,30 +326,35 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="268">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/FlyWeightFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="129">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/FlyweightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
+        <state relative-caret-position="200">
+          <caret line="80" column="83" selection-start-line="80" selection-start-column="83" selection-end-line="80" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
