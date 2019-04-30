@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60a1477e-39b2-44a8-80ed-c8ab9ce3402a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Command Assignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/META-INF/Command Assignment.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/ChangeColor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Draw.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Expand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/ICommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/IShape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Output.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Shrink.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Command Assignment/com/company/Vanish.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ChangeColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Draw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Expand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/IShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Shrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Vanish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flyweight Assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight Assignment/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="60a1477e-39b2-44a8-80ed-c8ab9ce3402a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Output.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="130" column="44" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
+            <state relative-caret-position="752">
+              <caret line="139" column="48" lean-forward="true" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
               <folding>
                 <element signature="e#2715#2716#0" expanded="true" />
                 <element signature="e#2740#2741#0" expanded="true" />
@@ -227,7 +183,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556565115446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556565228599" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -273,16 +229,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556561558641</updated>
-      <workItem from="1556561562500" duration="3522000" />
+      <workItem from="1556561562500" duration="4220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3522000" />
+    <option name="totallyTimeSpent" value="4220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -299,7 +254,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20450886" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20450886" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Output.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="130" column="44" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
+        <state relative-caret-position="752">
+          <caret line="139" column="48" lean-forward="true" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
           <folding>
             <element signature="e#2715#2716#0" expanded="true" />
             <element signature="e#2740#2741#0" expanded="true" />
