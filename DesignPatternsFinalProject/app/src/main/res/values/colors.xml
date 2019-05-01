@@ -3,7 +3,13 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="white">#FFFFFF</color>
+    <color name="color_island1">#92DCE5</color>
+    <color name="color_island2">#FFFFFF</color>
+    <color name="color_island3">#226D95</color>
+    <color name="color_island4">#679ABF</color>
+    <color name="color_island5">#4884CC</color>
+    <color name="color_island6">#A5CBEF</color>
+    <color name="color_island7">#BEDDFF</color>
     <color name="ivory">#F7F7F7</color>
     <color name="light_yellow">#FFFFE0</color>
     <color name="yellow">#FFFF00</color>

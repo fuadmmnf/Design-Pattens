@@ -45,8 +45,9 @@ public class CardActivity extends AppCompatActivity {
 
         viewBtn = (Button) findViewById(R.id.viewBtn);
         models = new ArrayList<>();
-        models.add(new IslandModel(R.drawable.island1, "Bronchure1", "Very nice lol"));
-        models.add(new IslandModel(R.drawable.island2, "Bronchure2", "Very nice lol"));
+        models.add(new IslandModel(R.drawable.island8, "Bronchure1", "Very nice lol"));
+        models.add(new IslandModel(R.drawable.island6, "Bronchure2", "Very nice lol"));
+        models.add(new IslandModel(R.drawable.island7, "Bronchure2", "Very nice lol"));
 
 
 
@@ -60,10 +61,9 @@ public class CardActivity extends AppCompatActivity {
         viewPager.setPadding(130, 0, 130, 0);
 
         Integer [] colors_temp = {
-                getResources().getColor(R.color.orange),
-                getResources().getColor(R.color.yellow_green),
-                getResources().getColor(R.color.light_blue),
-                getResources().getColor(R.color.light_coral)
+                getResources().getColor(R.color.color_island1),
+                getResources().getColor(R.color.color_island2),
+                getResources().getColor(R.color.color_island6)
         };
 
         colors = colors_temp;
