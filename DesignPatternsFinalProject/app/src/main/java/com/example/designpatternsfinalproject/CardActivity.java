@@ -34,6 +34,7 @@ public class CardActivity extends AppCompatActivity {
     Adapter adapter = null;
     List<IslandModel> models;
     Integer[] colors = null;
+    int islandNumber;
     ArgbEvaluator argbEvaluator = new ArgbEvaluator();
 
     private Button viewBtn;
@@ -48,9 +49,6 @@ public class CardActivity extends AppCompatActivity {
         models.add(new IslandModel(R.drawable.island8, "Bronchure1", "Very nice lol"));
         models.add(new IslandModel(R.drawable.island6, "Bronchure2", "Very nice lol"));
         models.add(new IslandModel(R.drawable.island7, "Bronchure2", "Very nice lol"));
-
-
-
 
 
         adapter = new Adapter(models, this);
@@ -81,6 +79,7 @@ public class CardActivity extends AppCompatActivity {
                             )
                     );
                     placeName = models.get(position).getTitle();
+                    islandNumber = position;
                 }
                 else
                 {
@@ -108,7 +107,7 @@ public class CardActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(CardActivity.this, Island.class);
-                intent.putExtra("name", placeName);
+                intent.putExtra("islandNumber", islandNumber+1);
                 startActivity(intent);
 
             }
