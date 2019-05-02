@@ -1,10 +1,16 @@
 package com.example.designpatternsfinalproject.Shapes;
 
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.graphics.Path;
 
 import com.example.designpatternsfinalproject.PathSingleton;
 
 public interface IShape {
-    Path path = PathSingleton.getInstance().getPath();
+
+
+    PathSingleton singletonInstance = PathSingleton.getInstance();
+    Paint paint = PathSingleton.getInstance().getPaint();
     public void draw();
+
 }

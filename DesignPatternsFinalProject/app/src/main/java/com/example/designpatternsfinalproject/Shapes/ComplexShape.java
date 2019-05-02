@@ -5,11 +5,13 @@ import android.graphics.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Polygon implements IShape {
+import androidx.annotation.NonNull;
+
+public class ComplexShape implements IShape {
 
     List<IShape> shapes;
 
-    public Polygon() {
+    public ComplexShape() {
         shapes = new ArrayList<>();
     }
 
@@ -22,5 +24,15 @@ public class Polygon implements IShape {
     public void draw() {
         for(IShape shape: shapes)
             shape.draw();
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        String result = "";
+        for(IShape shape: shapes)
+            result+= shape.toString()+"\n";
+
+        return result;
     }
 }

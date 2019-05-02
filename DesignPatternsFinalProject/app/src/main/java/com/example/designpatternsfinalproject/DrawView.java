@@ -15,15 +15,20 @@ import android.graphics.Paint;
 
 import com.example.designpatternsfinalproject.Shapes.Line;
 
+import org.apache.commons.collections4.MultiMap;
+
+import java.util.List;
+import java.util.Set;
+
 import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public class DrawView extends View {
     private Paint paint;
-    private Path mPath;
+    private MultiMap<Integer, Path> mPaths;
 
 
     public void init() {
-        mPath = PathSingleton.getInstance().getPath();
+        mPaths = PathSingleton.getInstance().getPaths();
         paint = PathSingleton.getInstance().getPaint();
         paint.setColor(Color.BLACK);
         paint.setStrokeWidth(3);
@@ -45,10 +50,19 @@ public class DrawView extends View {
 
     @Override
     public void onDraw(Canvas canvas) {
-        if(mPath == null) return;
-        canvas.drawPath(mPath, paint);
+        if (mPaths == null) return;
 
-        Log.d(TAG, "onDraw: "+mPath.toString());
+        Set<Integer> keySets = mPaths.keySet();
+
+        for (Integer color : keySets) {
+            paint.setColor(color);
+            List<Path> paths = (List<Path>) mPaths.get(color);
+            Log.d(TAG, "onDraw: "+paths.size());
+            for (Path path : paths) {
+                canvas.drawPath(path, paint);
+            }
+        }
+
     }
 
 }
