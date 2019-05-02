@@ -29,10 +29,8 @@ public class Island extends AppCompatActivity {
         setContentView(canvasView);
 
         IFactory iFactory = new IslandAbstractFactory(islandNumber).createIsland();
-        Line line = new Line(new Point(200, 200), new Point(1000, 1000));
-        Log.d("Island", "onCreate: "+line.getOrigin()+"    "+line.getDestination());
-        mPath = line.draw(mPath);
-        canvasView.drawPath(mPath);
+
+        canvasView.drawPath();
 
 
 
