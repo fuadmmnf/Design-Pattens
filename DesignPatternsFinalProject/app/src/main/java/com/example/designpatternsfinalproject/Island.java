@@ -17,17 +17,15 @@ public class Island extends AppCompatActivity {
 
     DrawView canvasView;
     int islandNumber;
-    Path mPath;
-    Canvas canvas;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         islandNumber = getIntent().getIntExtra("islandNumber", 0);
+        PathSingleton.getInstance().getPaths().clear();
         canvasView = new DrawView(this);
-        mPath = new Path();
         setContentView(canvasView);
-
+        canvasView.setBackground((islandNumber == 1)? getDrawable(R.drawable.island3backgroun) : getDrawable(R.drawable.island2background));
         IFactory iFactory = new IslandAbstractFactory(islandNumber).createIsland();
 
         canvasView.drawPath();

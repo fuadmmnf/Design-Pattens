@@ -6,6 +6,7 @@ import android.graphics.Point;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 
 import android.content.Context;
@@ -51,13 +52,11 @@ public class DrawView extends View {
     @Override
     public void onDraw(Canvas canvas) {
         if (mPaths == null) return;
-
         Set<Integer> keySets = mPaths.keySet();
 
         for (Integer color : keySets) {
             paint.setColor(color);
             List<Path> paths = (List<Path>) mPaths.get(color);
-            Log.d(TAG, "onDraw: "+paths.size());
             for (Path path : paths) {
                 canvas.drawPath(path, paint);
             }
@@ -65,4 +64,12 @@ public class DrawView extends View {
 
     }
 
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                Log.d(TAG, "onTouchEvent: " + event.getX() + "  " + event.getY());
+        }
+        return true;
+    }
 }

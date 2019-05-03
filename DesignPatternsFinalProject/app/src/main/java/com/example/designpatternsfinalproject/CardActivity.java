@@ -3,6 +3,7 @@ package com.example.designpatternsfinalproject;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.ColorSpace;
+import android.graphics.Path;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -109,6 +110,8 @@ public class CardActivity extends AppCompatActivity {
                 Intent intent = new Intent(CardActivity.this, Island.class);
                 intent.putExtra("islandNumber", islandNumber+1);
                 startActivity(intent);
+
+
 
             }
         });

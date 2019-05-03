@@ -1,5 +1,7 @@
 package com.example.designpatternsfinalproject.AbstractFactory;
 
+import com.example.designpatternsfinalproject.R;
+
 public class Island1Factory implements IFactory {
 
     IFlora iFlora;

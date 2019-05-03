@@ -14,5 +14,5 @@ public interface IFlora {
 
 
     public Path path = PathSingleton.getInstance().getPath();
-    public void drawFlora(int dX, int dY);
+    public void drawFlora(int dX, int dY, int leafColor, int stemColor);
 }

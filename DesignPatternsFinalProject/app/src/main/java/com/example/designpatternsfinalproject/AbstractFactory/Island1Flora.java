@@ -14,33 +14,26 @@ public class Island1Flora implements IFlora{
 
     public static final String TAG = "Island1Flora";
     ComplexShape floraShape;
-
+    int originX = 900;
+    int originY = 1165;
     public Island1Flora() {
         floraShape = new ComplexShape();
-        drawFlora(0, 0);
-        drawFlora(150, 50);
+        drawFlora(-60, 0, Color.rgb(0,128,0), Color.rgb(139,69,19));
+        drawFlora(80, 150, Color.rgb(154,205,50), Color.rgb(210,105,30));
+
+
 
 
     }
 
     @Override
-    public void drawFlora(int dX, int dY) {
+    public void drawFlora(int dX, int dY, int leafColor, int stemColor) {
 
-        IShape stem = flyweight.getRectangle(new Point(600+dX,580+dY), 250,50, Color.rgb(139,69,19));
+        IShape stem = flyweight.getRectangle(new Point(803+dX,1127+dY), 250,50, stemColor);
         addToFlora(stem);
 
-        Circle leaf = flyweight.getCircle(new Point(570+dX, 550+dY), 30, Color.rgb(0,128,0));
+        Circle leaf = flyweight.getCircle(new Point(824+dX, 980+dY), 150, leafColor);
         addToFlora(leaf);
-
-        leaf = flyweight.getCircle(new Point(557+dX, 550+dY), 50, Color.rgb(0,128,0));
-        addToFlora(leaf);
-
-        leaf = flyweight.getCircle(new Point(665+dX, 565+dY), 50, Color.rgb(0,128,0));
-        addToFlora(leaf);
-
-        leaf = flyweight.getCircle(new Point(625+dX, 500+dY), 60, Color.rgb(0,128,0));
-        addToFlora(leaf);
-
 
 
         Log.d(TAG, "drawFlora: "+floraShape.toString());
