@@ -1,4 +1,4 @@
-package com.example.designpatternsfinalproject;
+package com.example.designpatternsfinalproject.IslandSelector;
 
 public class IslandModel {
 

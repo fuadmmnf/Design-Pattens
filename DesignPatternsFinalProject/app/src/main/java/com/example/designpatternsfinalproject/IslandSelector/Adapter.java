@@ -1,4 +1,4 @@
-package com.example.designpatternsfinalproject;
+package com.example.designpatternsfinalproject.IslandSelector;
 
 
 import android.content.Context;
@@ -13,6 +13,8 @@ import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
+
+import com.example.designpatternsfinalproject.R;
 
 public class Adapter extends PagerAdapter {
 

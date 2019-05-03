@@ -9,9 +9,15 @@ import java.util.Map;
 
 public class ShapeFlyweight {
     public static final String TAG = "ShapeFlyweight";
-    private int maxWidth, maxHeight, maxRadius;
+    private int maxWidth=500, maxHeight=500, maxRadius=500;
     private Map<Pair<Integer,Integer>, Rectangle > rectangles;
     private Map<Integer, Circle> circles;
+
+    public ShapeFlyweight()
+    {
+        rectangles = new HashMap<>();
+        circles = new HashMap<>();
+    }
 
     public ShapeFlyweight(int maxWidth, int maxHeight, int maxRadius) {
         this.maxWidth = maxWidth;
@@ -50,6 +56,11 @@ public class ShapeFlyweight {
         circle.setColor(color);
 
         return  circle;
+    }
+
+    public Line getLine(Point origin, Point destination)
+    {
+        return new Line(origin, destination);
     }
 
 

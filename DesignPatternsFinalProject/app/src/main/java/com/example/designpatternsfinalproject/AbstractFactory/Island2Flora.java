@@ -19,12 +19,8 @@ public class Island2Flora implements IFlora{
     int originY = 1165;
     public Island2Flora() {
         floraShape = new ComplexShape();
-        drawFlora(-60, 0, Color.rgb(0,128,0), Color.rgb(139,69,19));
+        drawFlora(-60, 0, Color.rgb(147,176,130), Color.rgb(139,69,19));
         drawFlora(80, 150, Color.rgb(195,200,109), Color.rgb(210,105,30));
-
-
-
-
     }
 
     @Override
