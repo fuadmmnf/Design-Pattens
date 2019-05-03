@@ -1,8 +1,8 @@
 package com.example.designpatternsfinalproject.HutBuilder;
 
 public class Hut   {
-    private Roof roof;
-    private Body body;
+    private Roof roof = null;
+    private Body body = null;
 
     public Hut()
     {
@@ -39,6 +39,14 @@ public class Hut   {
 
             return hut;
         }
+    }
+
+    public void createHut()
+    {
+        if(roof != null)
+            this.roof.roofShape.draw();
+        if(body != null)
+            this.body.bodyShape.draw();
     }
 
 }

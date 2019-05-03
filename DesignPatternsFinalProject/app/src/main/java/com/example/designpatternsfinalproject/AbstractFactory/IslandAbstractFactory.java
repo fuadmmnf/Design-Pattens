@@ -12,7 +12,6 @@ public class IslandAbstractFactory {
     public IFactory createIsland()
     {
         if(islandNumber == 1)
-
             islandFactory = new Island1Factory();
         else
             islandFactory = new Island2Factory();

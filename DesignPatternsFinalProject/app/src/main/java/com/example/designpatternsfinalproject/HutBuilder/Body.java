@@ -1,5 +1,7 @@
 package com.example.designpatternsfinalproject.HutBuilder;
 
+import com.example.designpatternsfinalproject.Shapes.IShape;
+
 public abstract class Body {
-    public abstract void makeBody();
+    IShape bodyShape;
 }

@@ -1,5 +1,7 @@
 package com.example.designpatternsfinalproject.HutBuilder;
 
+import com.example.designpatternsfinalproject.Shapes.IShape;
+
 public abstract class Roof {
-    public abstract void makeRoof();
+   IShape roofShape;
 }

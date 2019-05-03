@@ -1,8 +1,13 @@
 package com.example.designpatternsfinalproject.HutBuilder;
 
-public class RectangularBody extends Body{
-    @Override
-    public void makeBody() {
+import android.graphics.Point;
 
+import com.example.designpatternsfinalproject.Shapes.Rectangle;
+
+public class RectangularBody extends Body{
+    public RectangularBody(Point a, int width, int height, int color)
+    {
+        bodyShape = new Rectangle(a, width, height);
+        ((Rectangle) bodyShape).setColor(color);
     }
 }
