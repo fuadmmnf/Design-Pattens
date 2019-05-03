@@ -21,10 +21,10 @@ import org.apache.commons.collections4.MultiMap;
 import java.util.List;
 import java.util.Set;
 
-import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public class DrawView extends View {
     private Paint paint;
+    public static final String TAG="";
     private MultiMap<Integer, Path> mPaths;
 
 

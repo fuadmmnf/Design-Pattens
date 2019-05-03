@@ -10,7 +10,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.animation.ArgbEvaluator;
 import android.widget.Button;
 
-import com.example.designpatternsfinalproject.Island;
+import com.example.designpatternsfinalproject.IslandActivity;
 import com.example.designpatternsfinalproject.R;
 
 import java.util.ArrayList;
@@ -94,7 +94,7 @@ public class CardActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(CardActivity.this, Island.class);
+                Intent intent = new Intent(CardActivity.this, IslandActivity.class);
                 intent.putExtra("islandNumber", islandNumber+1);
                 startActivity(intent);
 
