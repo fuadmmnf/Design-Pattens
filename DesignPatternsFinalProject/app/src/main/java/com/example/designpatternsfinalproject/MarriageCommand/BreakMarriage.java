@@ -1,15 +1,19 @@
 package com.example.designpatternsfinalproject.MarriageCommand;
 
-public class BreakMarriage implements IAction {
+public class BreakMarriage implements ICommand {
+    IAction action;
 
-
-    @Override
-    public void performMarriage() {
-
+    public BreakMarriage(IAction action) {
+        this.action = action;
     }
 
     @Override
-    public void breakMarriage() {
+    public void execute() {
+        action.breakMarriage();
+    }
 
+    @Override
+    public void undo() {
+        action.performMarriage();
     }
 }

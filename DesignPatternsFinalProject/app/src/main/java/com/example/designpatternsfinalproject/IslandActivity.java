@@ -17,6 +17,9 @@ import com.example.designpatternsfinalproject.AbstractFactory.IslandAbstractFact
 import com.example.designpatternsfinalproject.Island.DisasterMonitoringSystem;
 import com.example.designpatternsfinalproject.Island.Inhabitant;
 import com.example.designpatternsfinalproject.Island.WaterReservoir;
+import com.example.designpatternsfinalproject.MarriageCommand.MarriageCommand;
+import com.example.designpatternsfinalproject.MarriageCommand.PerformMarriage;
+import com.example.designpatternsfinalproject.MarriageCommand.PriestAction;
 import com.example.designpatternsfinalproject.MediatorCyberCafe.CafeMediator;
 import com.example.designpatternsfinalproject.MediatorCyberCafe.City;
 import com.google.android.material.snackbar.Snackbar;
@@ -37,6 +40,8 @@ public class IslandActivity extends AppCompatActivity {
     WaterReservoir waterReserver;
     DisasterMonitoringSystem disasterMonitoringSystem;
     CafeMediator cafeMediator;
+    PriestAction priestAction;
+    MarriageCommand marriageCommand;
 
     SubActionButton waterButton;
     SubActionButton disasterButton;
@@ -59,7 +64,7 @@ public class IslandActivity extends AppCompatActivity {
         cities = new ArrayList<>();
         disasterMonitoringSystem = new DisasterMonitoringSystem();
         cafeMediator = new CafeMediator(this);
-
+        marriageCommand = new MarriageCommand();
         populateIsland();
         populateCities(cafeMediator);
 
@@ -127,7 +132,8 @@ public class IslandActivity extends AppCompatActivity {
         waterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                snackbar = Snackbar.make(canvasView, inhabitants.get(rand.nextInt(inhabitants.size())).takeWaterFromWaterReservoir(waterReserver, 25), Snackbar.LENGTH_LONG);
+                snackbar.show();
             }
         });
 
@@ -162,7 +168,13 @@ public class IslandActivity extends AppCompatActivity {
         marriageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int firstId = rand.nextInt(inhabitants.size());
+                int secondId;
+                while (firstId == (secondId = rand.nextInt(inhabitants.size())));
 
+                priestAction = new PriestAction(inhabitants.get(firstId), inhabitants.get(secondId), IslandActivity.this);
+                priestAction.performMarriage();
+                marriageCommand.addCommand(new PerformMarriage(priestAction));
             }
         });
 
@@ -174,7 +186,7 @@ public class IslandActivity extends AppCompatActivity {
         undoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                marriageCommand.undo();
             }
         });
 
