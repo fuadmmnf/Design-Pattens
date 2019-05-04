@@ -13,6 +13,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.widget.RelativeLayout;
 
 import com.example.designpatternsfinalproject.Shapes.Line;
 
@@ -22,7 +23,7 @@ import java.util.List;
 import java.util.Set;
 
 
-public class DrawView extends View {
+public class DrawView extends RelativeLayout {
     private Paint paint;
     public static final String TAG="";
     private MultiMap<Integer, Path> mPaths;
