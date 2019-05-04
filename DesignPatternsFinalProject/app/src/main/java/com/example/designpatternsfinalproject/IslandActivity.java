@@ -56,7 +56,6 @@ public class IslandActivity extends AppCompatActivity {
         disasterMonitoringSystem = new DisasterMonitoringSystem();
         cafeMediator = new CafeMediator();
 
-
         populateIsland();
         populateCities(cafeMediator);
 
@@ -76,6 +75,9 @@ public class IslandActivity extends AppCompatActivity {
         cities.add(new City("Rajshahi", cafeMediator));
         cities.add(new City("Dhaka", cafeMediator));
 
+        for(City city: cities)
+            cafeMediator.addCollegue(city);
+
         for (int i = 0; i < inhabitants.size(); i++) {
             if (i % 2 == 0)
                 cities.get(0).addInhabitant(inhabitants.get(i));
@@ -86,7 +88,7 @@ public class IslandActivity extends AppCompatActivity {
 
     private void populateIsland() {
 
-        inhabitants.add(new Inhabitant("Faud", "soft"));
+        inhabitants.add(new Inhabitant("Fuad", "soft"));
         inhabitants.add(new Inhabitant("Nafis", "soft"));
         inhabitants.add(new Inhabitant("Fahmid"));
         inhabitants.add(new Inhabitant("Saif"));
@@ -142,6 +144,17 @@ public class IslandActivity extends AppCompatActivity {
         itemIcon = new ImageView(this);
         itemIcon.setImageResource(R.drawable.ic_cybercafe);
         cybercafeButton = itemBuilder.setContentView(itemIcon).build();
+        cybercafeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(IslandActivity.this, cities.get(0).sendMsg("Foni cyclone attacked Rajshahi"),
+                        Toast.LENGTH_LONG).show();
+
+
+
+            }
+        });
+
 
         itemIcon = new ImageView(this);
 //        itemIcon.setImageResource(R.drawable.);

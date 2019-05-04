@@ -1,7 +1,10 @@
 package com.example.designpatternsfinalproject.MediatorCyberCafe;
 
+import android.util.Log;
+
 import com.example.designpatternsfinalproject.Inhabitant;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class City {
@@ -14,6 +17,7 @@ public class City {
         this.name = name;
         cyberCafe = new CyberCafe();
         this.cafeMediator = cafeMediator;
+        this.inhabitantList = new ArrayList<>();
     }
 
     public void addInhabitant(Inhabitant inhabitant) {
@@ -29,11 +33,11 @@ public class City {
     }
 
     public void receiveMsg(String msg) {
-        cyberCafe.recieveMsg(inhabitantList, msg);
+        Log.d("CITY", getName()+" \n"+cyberCafe.recieveMsg(inhabitantList, msg));
     }
 
-    public void sendMsg(String msg)
+    public String sendMsg(String msg)
     {
-        cyberCafe.sendMsg(cafeMediator, msg);
+        return "Message sent from city: "+getName()+" by "+cyberCafe.sendMsg(inhabitantList,cafeMediator, msg);
     }
 }

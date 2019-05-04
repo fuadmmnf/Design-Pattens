@@ -18,7 +18,6 @@ public final class CafeMediator {
 
     public void recieveMsg(String msg)
     {
-        System.out.println("Message received is: "+msg);
         sendMsg(msg);
     }
 

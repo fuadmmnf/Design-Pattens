@@ -6,6 +6,8 @@ import com.example.designpatternsfinalproject.ChainOfResponsibility.IOperation;
 import com.example.designpatternsfinalproject.ChainOfResponsibility.NullActivity;
 import com.example.designpatternsfinalproject.ChainOfResponsibility.PrayForWater;
 import com.example.designpatternsfinalproject.ChainOfResponsibility.TakeWater;
+import com.example.designpatternsfinalproject.MediatorCyberCafe.CafeMediator;
+import com.example.designpatternsfinalproject.MediatorCyberCafe.CyberCafe;
 
 public class Inhabitant implements IInhabitant{
     String name;
@@ -40,9 +42,14 @@ public class Inhabitant implements IInhabitant{
         return this.name+" is alerted";
     }
 
-    public void getMsg(String msg)
+    public String getMsg(String msg)
     {
-        Log.d("", "getMsg: "+getName()+" received message: "+msg);
+        return getName()+" received message: "+msg;
+    }
+
+    public void sendMsg(CafeMediator cafeMediator, String msg)
+    {
+        cafeMediator.recieveMsg(msg);
     }
 
     public String getType() {
