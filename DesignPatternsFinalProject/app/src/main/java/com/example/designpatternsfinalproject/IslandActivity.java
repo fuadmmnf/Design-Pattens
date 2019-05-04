@@ -54,7 +54,7 @@ public class IslandActivity extends AppCompatActivity {
         inhabitants = new ArrayList<>();
         cities = new ArrayList<>();
         disasterMonitoringSystem = new DisasterMonitoringSystem();
-        cafeMediator = new CafeMediator();
+        cafeMediator = new CafeMediator(this);
 
         populateIsland();
         populateCities(cafeMediator);
@@ -72,8 +72,8 @@ public class IslandActivity extends AppCompatActivity {
     }
 
     private void populateCities(CafeMediator cafeMediator) {
-        cities.add(new City("Rajshahi", cafeMediator));
-        cities.add(new City("Dhaka", cafeMediator));
+        cities.add(new City("Rajshahi", cafeMediator ));
+        cities.add(new City("Dhaka", cafeMediator ));
 
         for(City city: cities)
             cafeMediator.addCollegue(city);
@@ -123,8 +123,7 @@ public class IslandActivity extends AppCompatActivity {
         waterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                snackbar = Snackbar.make(canvasView, inhabitants.get(rand.nextInt(inhabitants.size())).takeWaterFromWaterReservoir(waterReserver, 25), Snackbar.LENGTH_LONG);
-                snackbar.show();
+
             }
         });
 
@@ -147,11 +146,8 @@ public class IslandActivity extends AppCompatActivity {
         cybercafeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(IslandActivity.this, cities.get(0).sendMsg("Foni cyclone attacked Rajshahi"),
-                        Toast.LENGTH_LONG).show();
-
-
-
+                snackbar = Snackbar.make(canvasView, cities.get(0).sendMsg("Foni cyclone attacked Rajshahi"), Snackbar.LENGTH_LONG);
+                snackbar.show();
             }
         });
 

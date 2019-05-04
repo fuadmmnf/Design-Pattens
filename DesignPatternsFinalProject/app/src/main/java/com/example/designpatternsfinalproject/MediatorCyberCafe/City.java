@@ -1,8 +1,11 @@
 package com.example.designpatternsfinalproject.MediatorCyberCafe;
 
+import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.example.designpatternsfinalproject.Inhabitant;
+import com.example.designpatternsfinalproject.IslandActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +15,6 @@ public class City {
     List<Inhabitant> inhabitantList;
     CyberCafe cyberCafe;
     CafeMediator cafeMediator;
-
     public City(String name, CafeMediator cafeMediator) {
         this.name = name;
         cyberCafe = new CyberCafe();
@@ -32,8 +34,11 @@ public class City {
         return name;
     }
 
-    public void receiveMsg(String msg) {
-        Log.d("CITY", getName()+" \n"+cyberCafe.recieveMsg(inhabitantList, msg));
+    public String receiveMsg(String msg) {
+        String text = "";
+        text +=getName()+" \n"+cyberCafe.recieveMsg(inhabitantList, msg);
+        return text;
+
     }
 
     public String sendMsg(String msg)
