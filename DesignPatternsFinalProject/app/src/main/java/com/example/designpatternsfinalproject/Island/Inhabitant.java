@@ -1,13 +1,10 @@
-package com.example.designpatternsfinalproject;
-
-import android.util.Log;
+package com.example.designpatternsfinalproject.Island;
 
 import com.example.designpatternsfinalproject.ChainOfResponsibility.IOperation;
 import com.example.designpatternsfinalproject.ChainOfResponsibility.NullActivity;
 import com.example.designpatternsfinalproject.ChainOfResponsibility.PrayForWater;
 import com.example.designpatternsfinalproject.ChainOfResponsibility.TakeWater;
 import com.example.designpatternsfinalproject.MediatorCyberCafe.CafeMediator;
-import com.example.designpatternsfinalproject.MediatorCyberCafe.CyberCafe;
 
 public class Inhabitant implements IInhabitant{
     String name;

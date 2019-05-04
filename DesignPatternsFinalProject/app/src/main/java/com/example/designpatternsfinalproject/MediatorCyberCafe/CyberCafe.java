@@ -1,10 +1,7 @@
 package com.example.designpatternsfinalproject.MediatorCyberCafe;
 
 
-import android.widget.Toast;
-
-import com.example.designpatternsfinalproject.Inhabitant;
-import com.example.designpatternsfinalproject.IslandActivity;
+import com.example.designpatternsfinalproject.Island.Inhabitant;
 
 import java.util.List;
 

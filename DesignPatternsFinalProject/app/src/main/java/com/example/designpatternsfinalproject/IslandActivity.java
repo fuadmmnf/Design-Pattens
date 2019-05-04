@@ -14,6 +14,9 @@ import android.widget.Toast;
 
 import com.example.designpatternsfinalproject.AbstractFactory.IFactory;
 import com.example.designpatternsfinalproject.AbstractFactory.IslandAbstractFactory;
+import com.example.designpatternsfinalproject.Island.DisasterMonitoringSystem;
+import com.example.designpatternsfinalproject.Island.Inhabitant;
+import com.example.designpatternsfinalproject.Island.WaterReservoir;
 import com.example.designpatternsfinalproject.MediatorCyberCafe.CafeMediator;
 import com.example.designpatternsfinalproject.MediatorCyberCafe.City;
 import com.google.android.material.snackbar.Snackbar;
@@ -38,7 +41,8 @@ public class IslandActivity extends AppCompatActivity {
     SubActionButton waterButton;
     SubActionButton disasterButton;
     SubActionButton cybercafeButton;
-    SubActionButton pentagonButton;
+    SubActionButton marriageButton;
+    SubActionButton undoButton;
 
     Snackbar snackbar;
 
@@ -153,8 +157,31 @@ public class IslandActivity extends AppCompatActivity {
 
 
         itemIcon = new ImageView(this);
-//        itemIcon.setImageResource(R.drawable.);
-        pentagonButton = itemBuilder.setContentView(itemIcon).build();
+        itemIcon.setImageResource(R.drawable.ic_marriage);
+        marriageButton = itemBuilder.setContentView(itemIcon).build();
+        marriageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+
+
+        itemIcon = new ImageView(this);
+        itemIcon.setImageResource(R.drawable.ic_undo);
+        undoButton = itemBuilder.setContentView(itemIcon).build();
+        undoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+
+
+
+
 
         itemIcon = new ImageView(this);
         itemIcon.setImageResource(R.drawable.ic_close_black_24dp);
@@ -163,7 +190,8 @@ public class IslandActivity extends AppCompatActivity {
                 .addSubActionView(waterButton)
                 .addSubActionView(disasterButton)
                 .addSubActionView(cybercafeButton)
-                .addSubActionView(pentagonButton)
+                .addSubActionView(marriageButton)
+                .addSubActionView(undoButton)
                 .attachTo(actionButton)
                 .build();
 
@@ -173,7 +201,7 @@ public class IslandActivity extends AppCompatActivity {
     public void resetButtonColor() {
         waterButton.setBackgroundColor(Color.WHITE);
         disasterButton.setBackgroundColor(Color.WHITE);
-        pentagonButton.setBackgroundColor(Color.WHITE);
+        marriageButton.setBackgroundColor(Color.WHITE);
         cybercafeButton.setBackgroundColor(Color.WHITE);
     }
 

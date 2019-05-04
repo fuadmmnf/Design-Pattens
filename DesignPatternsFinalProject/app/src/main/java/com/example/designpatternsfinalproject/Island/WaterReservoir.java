@@ -1,4 +1,4 @@
-package com.example.designpatternsfinalproject;
+package com.example.designpatternsfinalproject.Island;
 
 public final class WaterReservoir {
     public double waterLevel;
