@@ -8,8 +8,10 @@ public class PrayForWater implements IOperation {
     @Override
     public String performOperation(WaterReservoir waterReserver, double amount, Inhabitant inhabitant) {
         if(waterReserver.getWaterLevel() -amount < waterReserver.getToleranceLevel()) {
-            waterReserver.setWaterLevel(waterReserver.getWaterLevel() - amount);
-            return inhabitant.getName()+" praying for water, WaterLevel:" + waterReserver.getWaterLevel();
+
+            String text =  inhabitant.getName()+" praying for water, WaterLevel:" + waterReserver.getWaterLevel();
+            waterReserver.setWaterLevel(waterReserver.getWaterLevel() + 5);
+            return text;
         }
         else
             return this.nextOpp.performOperation(waterReserver, amount, inhabitant);
