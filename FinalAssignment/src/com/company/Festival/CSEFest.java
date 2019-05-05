@@ -12,11 +12,11 @@ public class CSEFest extends Festival {
 
     @Override
     public void organize() {
-
+        System.out.println("CSEFEST is organized");
     }
 
     @Override
     public void manageEvents() {
-
+        System.out.println("The Events in CSEFEST is managed");
     }
 }

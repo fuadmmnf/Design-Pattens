@@ -11,11 +11,11 @@ public class MathOlympiad extends Festival {
 
     @Override
     public void organize() {
-
+        System.out.println("MathOlympiad is organized");
     }
 
     @Override
     public void manageEvents() {
-
+        System.out.println("The Events in MathOlympiad is managed");
     }
 }

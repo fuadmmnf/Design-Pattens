@@ -1,4 +1,4 @@
-package com.example.designpatternsfinalproject;
+package com.example.designpatternsfinalproject.Island;
 
 import android.graphics.Path;
 import android.graphics.Point;
@@ -15,6 +15,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.widget.RelativeLayout;
 
+import com.example.designpatternsfinalproject.PathSingleton;
 import com.example.designpatternsfinalproject.Shapes.Line;
 
 import org.apache.commons.collections4.MultiMap;

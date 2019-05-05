@@ -18,12 +18,12 @@ public class TSCSingleton {
         bookedDates = new ArrayList<>();
     }
 
-    private void reserve(String date)
+    public void reserve(String date)
     {
         bookedDates.add(date);
     }
 
-    private boolean isDateAvailable(String date)
+    public boolean isDateAvailable(String date)
     {
         for(String bookedDate: bookedDates)
             if(bookedDate.equals(date))

@@ -1,4 +1,4 @@
-package com.example.designpatternsfinalproject;
+package com.example.designpatternsfinalproject.Island;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,14 +14,13 @@ import android.widget.Toast;
 
 import com.example.designpatternsfinalproject.AbstractFactory.IFactory;
 import com.example.designpatternsfinalproject.AbstractFactory.IslandAbstractFactory;
-import com.example.designpatternsfinalproject.Island.DisasterMonitoringSystem;
-import com.example.designpatternsfinalproject.Island.Inhabitant;
-import com.example.designpatternsfinalproject.Island.WaterReservoir;
 import com.example.designpatternsfinalproject.MarriageCommand.MarriageCommand;
 import com.example.designpatternsfinalproject.MarriageCommand.PerformMarriage;
 import com.example.designpatternsfinalproject.MarriageCommand.PriestAction;
 import com.example.designpatternsfinalproject.MediatorCyberCafe.CafeMediator;
 import com.example.designpatternsfinalproject.MediatorCyberCafe.City;
+import com.example.designpatternsfinalproject.PathSingleton;
+import com.example.designpatternsfinalproject.R;
 import com.google.android.material.snackbar.Snackbar;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
@@ -105,7 +104,7 @@ public class IslandActivity extends AppCompatActivity {
         inhabitants.add(new Inhabitant("Saikat"));
         inhabitants.add(new Inhabitant("Akib"));
         inhabitants.add(new Inhabitant("Aminul"));
-        inhabitants.add(new Inhabitant("Rezowan", "kazi"));
+        inhabitants.add(new Inhabitant("Rezowan"));
 
         for (int i = 0; i < inhabitants.size(); i++)
             disasterMonitoringSystem.addInhabitant(inhabitants.get(i));

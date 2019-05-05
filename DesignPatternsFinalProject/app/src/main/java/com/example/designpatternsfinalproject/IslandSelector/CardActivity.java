@@ -10,7 +10,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.animation.ArgbEvaluator;
 import android.widget.Button;
 
-import com.example.designpatternsfinalproject.IslandActivity;
+import com.example.designpatternsfinalproject.Island.IslandActivity;
 import com.example.designpatternsfinalproject.R;
 
 import java.util.ArrayList;
