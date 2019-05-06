@@ -1,6 +1,6 @@
 package com.company.MediaPartner;
 
-import com.company.MediaUser;
+import com.company.Person;
 
 public class Newspaper extends Media {
     @Override
@@ -10,7 +10,7 @@ public class Newspaper extends Media {
 
     @Override
     public void sendContent(String content) {
-        for(MediaUser user: users)
+        for(Person user: users)
             user.getContent(content);
     }
 }

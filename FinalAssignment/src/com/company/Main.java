@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.Festival.Festival;
 import com.company.Festival.IITFest;
+import com.company.MediaPartner.Media;
 import com.company.MediaPartner.TV;
 import com.company.Mediator.Department;
 import com.company.Mediator.EventMediator;
@@ -23,8 +24,19 @@ public class Main {
     public static void main(String[] args) {
         EventMediator eventMediator = new EventMediator();
 
-        Festival festival1 = new IITFest(new TV(), eventMediator);
+        Media media = new TV();
+        media.addUser(new Person("fuad"));
+        media.addUser(new Person("saif"));
+        media.addUser(new Person("rezowan"));
+        media.addUser(new Person("rakib"));
+        Festival festival1 = new IITFest(media, eventMediator);
 
+
+        festival1.addPersonInvolved(new Person("fuad", "food"));
+        festival1.addPersonInvolved(new Person("saif", "tshirt"));
+        festival1.addPersonInvolved(new Person("rezowan", "anchor"));
+        festival1.addPersonInvolved(new Person("rakib"));
+        festival1.addPersonInvolved(new Person("aminul", "registration"));
 
         Scanner input = new Scanner(System.in);
         String date;
@@ -40,6 +52,7 @@ public class Main {
 
 
         festival1.communicateBetweenDepartments();
+        festival1.execute();
         festival1.broadCast();
         festival1.organize();
         festival1.manageEvents();
