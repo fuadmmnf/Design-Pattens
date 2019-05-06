@@ -1,13 +1,14 @@
 package com.company.Festival;
 
 import com.company.MediaPartner.Media;
+import com.company.Mediator.EventMediator;
 
 public class IITFest extends Festival {
 
 
-    public IITFest(Media mediaPartner)
+    public IITFest(Media mediaPartner, EventMediator eventMediator)
     {
-        super(mediaPartner);
+        super(mediaPartner, eventMediator);
     }
 
 

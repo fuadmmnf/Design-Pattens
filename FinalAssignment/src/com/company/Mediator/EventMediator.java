@@ -19,7 +19,7 @@ public class EventMediator {
 
     public void recieveMsg(String msg)
     {
-        System.out.println("Event received: "+msg);
+        System.out.println("Event received msg: "+msg);
         sendMsg(msg);
     }
 

@@ -1,12 +1,13 @@
 package com.company.Festival;
 
 import com.company.MediaPartner.Media;
+import com.company.Mediator.EventMediator;
 
 public class MathOlympiad extends Festival {
 
-    public MathOlympiad(Media mediaPartner)
+    public MathOlympiad(Media mediaPartner, EventMediator eventMediator)
     {
-        super(mediaPartner);
+        super(mediaPartner, eventMediator);
     }
 
     @Override

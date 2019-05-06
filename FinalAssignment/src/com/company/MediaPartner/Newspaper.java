@@ -1,8 +1,16 @@
 package com.company.MediaPartner;
 
+import com.company.MediaUser;
+
 public class Newspaper extends Media {
     @Override
     public void broadcast() {
-        System.out.println("Broadcasting via Newspaper");
+        sendContent("Content from Newspaper");
+    }
+
+    @Override
+    public void sendContent(String content) {
+        for(MediaUser user: users)
+            user.getContent(content);
     }
 }

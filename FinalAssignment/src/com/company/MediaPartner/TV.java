@@ -1,8 +1,18 @@
 package com.company.MediaPartner;
 
+import com.company.MediaUser;
+
 public class TV extends Media {
     @Override
     public void broadcast() {
-        System.out.println("Broadcasting via Television");
+        sendContent("Content from TV");
     }
+
+    @Override
+    public void sendContent(String content) {
+        for(MediaUser user: users)
+            user.getContent(content);
+    }
+
+
 }
